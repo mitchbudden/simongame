@@ -1,0 +1,143 @@
+
+body {
+  background-image: url("http://www.artsfon.com/pic/201412/2560x1600/artsfon.com-42985.jpg");
+}
+
+#title {
+  color: white;
+  font-size: 35px;
+  font-family: 'Russo One', sans-serif;
+  margin-bottom: -10%;
+}
+
+#menu {
+  text-align: center;
+  width: 17.5em;
+  height: 17.5em;
+  border: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 360px;
+  background-color: #262626;
+  margin-left: -20%;
+  margin-top: -70%;
+  position: relative; 
+  z-index: 1;
+}
+
+#count {
+  font-size: 40px;
+  color: white;
+  margin-top: 1.2em;
+  font-family: 'VT323', monospace;
+}
+#start {
+  width: 4em;
+  height: 4em;
+  font-size: 15px;
+  margin-top: 2.5em;
+  margin-right: 5em;
+  margin-left: -1em;
+  color: black;
+  font-family: 'VT323', monospace;
+  border: solid;
+  boder-thickness: 10px;
+  border-radius: 360px;
+  box-shadow: 3px 3px 5px black;
+}
+#strict {
+  width: 4em;
+  height: 4em;
+  font-size: 15px;
+  margin-top: 2.5em;
+  margin-right: 4em;
+  margin-left: -1em;
+  color: black;
+  font-family: 'VT323', monospace;
+  border: solid;
+  boder-thickness: 10px;
+  border-radius: 360px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.perimeter {
+  margin-left: 27.5%;
+  margin-top: 2%;
+  width: 40em;
+  height: 40em;
+  border-radius: 360px;
+  position: relative;
+}
+
+#g {
+  height: 20em;
+  width: 20em;
+  border: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 360px 0px 0px 0px;
+  margin-left: 0.6em;
+}
+
+.green {
+  background-color: #00cc00;
+}
+
+.greenActive {
+  background-color: #80ff80;
+}
+
+#r {
+  height: 20em;
+  width: 20em;
+  border: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 0px 360px 0px 0px; 
+  margin-left: -0.6em;
+}
+
+.red {
+  background-color: #ff1a1a;
+}
+
+.redActive {
+  background-color: #ffb3b3;
+}
+
+#y {
+  height: 20em;
+  width: 20em;
+  border: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 0px 0px 0px 360px;
+  margin-left: 0.6em;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.yellowActive {
+  background-color: #ffffb3;
+}
+
+#b {
+  height: 20em;
+  width: 20em;
+  border: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 0px 0px 360px 0px; 
+  margin-left: -7.6em;
+  z-index: -1;
+}
+
+.blue {
+  background-color: #0040ff;
+}
+
+.blueActive {
+  background-color: #ccccff;
+}
