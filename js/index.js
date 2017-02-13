@@ -90,7 +90,7 @@ $(document).ready(function(){
     console.log(color);
     count++;
     $("#count").html(count);
-    if (color == 1) {
+    if (color == 1 || color == 0) {
       compColor.push("green");
       pressGreen();    
     } else if (color == 2) {
